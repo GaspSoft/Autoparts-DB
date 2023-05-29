@@ -100,7 +100,8 @@ Esta tabela armazena informações sobre os funcionários.
 2. Execute o script SQL para criar as tabelas.
 3. Utilize as tabelas para armazenar as informações da loja de autopeças.
 
-```sql
+```
+sql
 -- Excluir o Banco de Dados
 DROP DATABASE IF EXISTS loja_db;
 
@@ -112,8 +113,10 @@ USE autoparts_db;
 
 -- Criação das tabelas (consulte o arquivo para ver os detalhes de cada tabela)
 ````
+
+
 <p align="center">
-  <img src="https://github.com/GaspSoft/Autoparts-DB/assets/86849487/c8e74ce8-75b2-470f-86b1-75d7ce595760" alt="Modelagem do Banco de Dados">
+  <img src="https://github.com/GaspSoft/Autoparts-DB/assets/86849487/47d44e6d-c452-4755-9f27-eef3dad4c507" alt="Modelagem do Banco de Dados">
 </p>
 
 
