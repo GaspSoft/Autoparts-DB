@@ -85,8 +85,6 @@ Esta tabela armazena informações sobre os funcionários.
 | nome                          | VARCHAR  | SIM         |
 | email                         | VARCHAR  | SIM         |
 | senha                         | INT      | SIM         |
-| genero                        | VARCHAR  | SIM         |
-| dataNascimento                | DATE     | SIM         |
 | cargaHoraria                  | INT      | SIM         |
 | salario                       | DOUBLE   | SIM         |
 | tipoFuncionario               | INT      | SIM         |
