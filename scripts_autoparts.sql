@@ -1,5 +1,5 @@
 -- Exclui o Banco
--- DROP DATABASE loja_db IF EXIST;
+-- DROP DATABASE autoparts_db;
 
 CREATE DATABASE IF NOT EXISTS autoparts_db;
 	
@@ -83,12 +83,10 @@ CREATE TABLE IF NOT EXISTS `Vendas` (
 -- Table `Funcionarios`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Funcionarios` (
-  `cpf` INT NOT NULL,
+  `cpf` bigint NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
   `email` VARCHAR(45) NOT NULL,
   `senha` INT NOT NULL,
-  `genero` VARCHAR(45) NOT NULL,
-  `dataNascimento` DATE NOT NULL,
   `cargaHoraria` INT NOT NULL,
   `salario` DOUBLE NOT NULL,
   `tipoFuncionario` INT NOT NULL,
@@ -96,7 +94,6 @@ CREATE TABLE IF NOT EXISTS `Funcionarios` (
   `Vendas_Pecas_Fornecedores_id` INT NOT NULL,
   `Vendas_Vendedores_id` INT NOT NULL,
   PRIMARY KEY (
-    `cpf`,
     `Vendas_Pecas_id`,
     `Vendas_Pecas_Fornecedores_id`,
     `Vendas_Vendedores_id`,
