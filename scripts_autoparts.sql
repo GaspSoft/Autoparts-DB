@@ -6,7 +6,7 @@ CREATE DATABASE IF NOT EXISTS autoparts_db;
 USE autoparts_db;
 
 CREATE TABLE IF NOT EXISTS `Enderecos` (
-  `id` INT NOT NULL,
+  `id` INT auto_increment NOT NULL,
   `cep` INT NOT NULL,
   `estado` VARCHAR(45) NOT NULL,
   `cidade` VARCHAR(45) NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `Enderecos` (
 -- Table `Fornecedores`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Fornecedores` (
-  `id` INT NOT NULL,
+  `id` INT auto_increment NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`)
 );
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `Fornecedores` (
 -- Table `Pecas`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Pecas` (
-  `id` INT NOT NULL,
+  `id` INT auto_increment NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
   `descrição` VARCHAR(45) NOT NULL,
   `quantidade` INT NOT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `Clientes` (
 -- Table `Vendas`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Vendas` (
-  `Pecas_id` INT NOT NULL,
+  `Pecas_id` INT auto_increment NOT NULL,
   `Pecas_Fornecedores_id` INT NOT NULL,
   `Vendedores_id` INT NOT NULL,
   `Clientes_cpf` INT NOT NULL,
