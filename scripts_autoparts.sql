@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `Pecas` (
   `ano` INT NOT NULL,
   `preco` DOUBLE NOT NULL,
   `modelo` VARCHAR(45) NOT NULL,
-  `tipoVeiculo` INT NOT NULL,
+  `tipoVeiculo` BIT NOT NULL,
   `Fornecedores_id` INT NOT NULL,
   PRIMARY KEY (`Pecas_id`, `Fornecedores_id`),
   CONSTRAINT `fk_Pecas_Fornecedores1` FOREIGN KEY (`Fornecedores_id`) REFERENCES `Fornecedores` (`Fornecedor_id`)
