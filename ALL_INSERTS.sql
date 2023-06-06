@@ -80,31 +80,32 @@ insert into Pecas (nome, descricao, quantidade, foto, marca, ano, preco, modelo,
 insert into Pecas (nome, descricao, quantidade, foto, marca, ano, preco, modelo, tipoVeiculo, Fornecedores_id) values ('Brewster', 'Congendia', 5, 'http://dummyimage.com/199x204.png/cc0000/ffffff', 'Shufflebeat', 10, 92.7, 'Port Moller Airport', 1, 25);
 
 -- CLIENTES
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (1, 11, 'Anni', 'awalwood0@icio.us', 'Yi6DGvM84', 1);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (2, 11, 'Wilmer', 'wlepoidevin1@skype.com', '4jdsaLr', 2);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (3, 11, 'Jamey', 'jdeville2@fastcompany.com', 'rUQUuSo1u', 3);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (4, 11, 'Kali', 'kfaulds3@123-reg.co.uk', 'F4WUMBXKEGQ5', 4);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (5, 11, 'Marabel', 'mmogford4@smugmug.com', 'wmRGXl', 5);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (6, 11, 'Blanca', 'bdendle5@yahoo.com', 'H21c8Fm3GZc', 6);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (7, 11, 'Layney', 'lbristowe6@is.gd', 'rp0qXc6', 7);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (8, 11, 'De', 'dklemenz7@blogspot.com', 'xro4aai', 8);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (9, 11, 'Todd', 'tzanelli8@patch.com', 'RdgK3PWLWN', 9);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (10, 11, 'Petronia', 'phugill9@amazon.de', 'a0RqfiYRgah', 10);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (11, 11, 'Fitz', 'fbenkaa@blogs.com', '88hYPfr2Z', 11);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (12, 11, 'Torr', 'tsteutlyb@photobucket.com', 'DUocQ6g8', 12);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (13, 11, 'Florida', 'fharec@ed.gov', 'v4Pxf9', 13);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (14, 11, 'Melicent', 'mstourtond@unblog.fr', '8ysLkwzEd2iR', 14);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (15, 11, 'Gwenny', 'gackensone@uol.com.br', 'hHvwUN6PRAMz', 15);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (16, 11, 'Elliot', 'emarcof@slate.com', '1txirfhf93mU', 16);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (17, 11, 'Lorinda', 'lklicherg@reverbnation.com', 'reGefr', 17);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (18, 11, 'Micheil', 'mtucsellh@bizjournals.com', '4DN0cvtGwls', 18);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (19, 11, 'Ephrem', 'emasdoni@delicious.com', 'oJwZIO1', 19);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (20, 11, 'Timmie', 'tcargonj@globo.com', 'bNfkZkRLMk', 20);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (21, 11, 'Ruperto', 'rifek@myspace.com', 'tetO7Ex1VRLq', 21);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (22, 11, 'Evy', 'ewakenshawl@google.co.jp', 'RhCX7TVg47j', 22);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (23, 11, 'Dion', 'dphinnessym@domainmarket.com', '4sy8g4eiuh2v', 23);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (24, 11, 'Bill', 'blindemannn@ifeng.com', 'nbutebmX', 24);
-insert into Clientes (Cliente_id, cpf, nome, email, senha, Endereco_id) values (25, 11, 'Hyatt', 'hgeffeo@aol.com', 'TIvgydhTBppH', 25);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (30211242010, 'Masha', 'msinfield0@bandcamp.com', 'KUoF2Mp8d', 1);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (72123846515, 'Joellen', 'jcrumpton1@unesco.org', 'atYjTE7', 2);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (27543338529, 'Mirna', 'mmaleham2@free.fr', 'UA9VhRzYlo', 3);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (79818292286, 'Goran', 'gmardlin3@drupal.org', 'gVXkVg', 4);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (87202328391, 'Marcelo', 'mburhouse4@weebly.com', 'WinP3o', 5);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (65677834864, 'Prent', 'pscholte5@netlog.com', '7NCMm0VigU', 6);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (65438870014, 'Gottfried', 'gdate6@java.com', 'TsiTsBp', 7);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (45605757099, 'Creighton', 'choodspeth7@hexun.com', '3c8Cpk', 8);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (58923103517, 'Aleta', 'athomasen8@jimdo.com', 'FgWxT01dz', 9);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (79866746855, 'Kori', 'kforkan9@state.gov', 'NusBBeFMz', 10);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (45818956538, 'Haley', 'hculya@typepad.com', 'Y26OomPu', 11);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (56225796372, 'Evangelina', 'ecorainb@independent.co.uk', 'X3jB9y', 12);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (31890368086, 'Kristina', 'kkellarc@shinystat.com', 'ipMI3t0Oh', 13);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (51243110762, 'Claus', 'cmariad@va.gov', '4yMSaog', 14);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (98557026754, 'Vale', 'vswaine@msn.com', '72J18vRz2J', 15);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (34031276580, 'Darell', 'dbowtonf@bandcamp.com', 'PlDJVfO', 16);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (53375239385, 'Rudolph', 'rmaccallesterg@gizmodo.com', 'LEMuOCsIv0ey', 17);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (33821313896, 'Dorelia', 'dgrisewoodh@ehow.com', '5GY7xubQ', 18);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (96523273961, 'Adriaens', 'apolandi@reference.com', 'imWcQE', 19);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (11339213341, 'Werner', 'wglaisterj@ca.gov', 'xfgR2D', 20);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (12827988500, 'Felice', 'fthalmannk@yelp.com', 'fKEAjaFOJ', 21);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (48070461707, 'Northrop', 'njaffreyl@dmoz.org', '7Vmo2a', 22);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (33235880906, 'Oran', 'omoreinum@apple.com', 'OdzSQCVd', 23);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (77369179271, 'Harp', 'hkeenorn@forbes.com', 'kq487c', 24);
+insert into Clientes (cpf, nome, email, senha, Enderecos_id) values (21620707770, 'Carrie', 'cdunneto@studiopress.com', '66I0fyIqeDkJ', 25);
+
 
 -- Funcionarios
 insert into Funcionarios (cpf, nome, email, senha, cargo_funcionario) values (46984253806, 'Felis concolor', 'nwinsor0@1688.com', 'wzBMqyzBVEq', 0);
