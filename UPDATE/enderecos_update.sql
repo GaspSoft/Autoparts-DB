@@ -7,4 +7,6 @@ update clientes set cpf = 66666666666, nome = "Pedro Godri", email = "pedrogodri
 update clientes set cpf = 77777777777, nome = "Pedro Godri", email = "pedrogodri@gmail.com", senha = "Tribess123" where Cliente_id = 7;
 update clientes set cpf = 88888888888, nome = "Pedro Godri", email = "pedrogodri@gmail.com", senha = "Tribess123" where Cliente_id = 8;
 update clientes set cpf = 99999999999, nome = "Pedro Godri", email = "pedrogodri@gmail.com", senha = "Tribess123" where Cliente_id = 9;
-update clientes set cpf = 10101010101, nome = "Pedro Godri", email = "pedrogodri@gmail.com", senha = "Tribess123" where Cliente_id = 10; 
+update clientes set cpf = 10101010101, nome = "Pedro Godri", email = "pedrogodri@gmail.com", senha = "Tribess123" where Cliente_id = 10;
+
+select * from clientes order by Cliente_id asc; 

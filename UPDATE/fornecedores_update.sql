@@ -8,3 +8,5 @@ update fornecedores  set  nome ="Carioca" where fornecedor_id = 7;
 update fornecedores  set  nome ="Canalha" where fornecedor_id = 8;
 update fornecedores  set  nome ="Carol" where fornecedor_id = 9;
 update fornecedores  set  nome ="Carolina" where fornecedor_id = 10;
+
+select * from fornecedores order by fornecedor_id  asc;
