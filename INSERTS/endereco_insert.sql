@@ -1,5 +1,3 @@
-use autoparts_db;
-
 insert into Enderecos (Endereco_id, cep, estado, cidade, bairro, rua, numero, complemento) values (1, 41636178, 'New York', 'New York City', 'Trumann Booth-Jarvis', 'Esch', '27156', 9377);
 insert into Enderecos (Endereco_id, cep, estado, cidade, bairro, rua, numero, complemento) values (2, 94050839, 'New York', 'Staten Island', 'Rosanne MacCague', 'Westerfield', '83227', 9721);
 insert into Enderecos (Endereco_id, cep, estado, cidade, bairro, rua, numero, complemento) values (3, 13471113, 'New York', 'Flushing', 'Ferdy Wicken', 'Rockefeller', '79', 5067);
