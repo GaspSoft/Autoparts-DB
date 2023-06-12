@@ -41,10 +41,10 @@ CREATE TABLE IF NOT EXISTS `Pecas` (
 
 CREATE TABLE IF NOT EXISTS `Clientes` (
   `Cliente_id` INT auto_increment NOT NULL,
-  `cpf` INT NOT NULL,
+  `cpf` bigint NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
   `email` VARCHAR(45) NOT NULL,
-  `senha` INT NOT NULL,
+  `senha` VARCHAR(20) NOT NULL,
   `Enderecos_id` INT NOT NULL,
   PRIMARY KEY (`Cliente_id`, `Enderecos_id`),
   CONSTRAINT `fk_Clientes_Enderecos1` FOREIGN KEY (`Enderecos_id`) REFERENCES `Enderecos` (`Endereco_id`)
