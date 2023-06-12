@@ -29,13 +29,7 @@ CREATE DATABASE IF NOT EXISTS autoparts_db;
 USE autoparts_db;
 
 -- Criação das tabelas (consulte o arquivo para ver os detalhes de cada tabela)
-Rode a query scripts_autoparts 
-
--- Preencher as tabelas (consulte o arquivo para ver os detalhes de cada tabela)
-Rode a query ALL_INSERTS 
 ````
-## Autores
 
-Este projeto foi desenvolvido por [Rafael Ronchi](https://github.com/RafaelRonchi),  [Pedro Godri](https://github.com/pedrogodri),  [Vitor Hugo Schiphorst](https://github.com/VitorSchiphorst),  [Bárbara](https://github.com/BahNasc) e [Nicolas Maba](https://github.com/NicolasRicardoMaba).
 
 

@@ -1,0 +1,10 @@
+USE autoparts_db;
+
+UPDATE pecas SET Pecas_id = 3, nome = 'Vitor', descricao = 'Tem que dar certo pfv', quantidade = 43678, foto = 'Teste Update', marca = 'Qualquer coisa', ano = 536, preco = 8568, modelo = 'Irã', tipoVeiculo = 1, Fornecedor_id = 1 WHERE Pecas_id = 1;
+UPDATE pecas SET Pecas_id = 3, nome = 'Vitor', descricao = 'Tem que dar certo pfv', quantidade = 43678, foto = 'Teste Update', marca = 'Qualquer coisa', ano = 536, preco = 8568, modelo = 'Irã', tipoVeiculo = 1, Fornecedor_id = 1 WHERE Pecas_id = 1;
+UPDATE pecas SET Pecas_id = 3, nome = 'Vitor', descricao = 'Tem que dar certo pfv', quantidade = 43678, foto = 'Teste Update', marca = 'Qualquer coisa', ano = 536, preco = 8568, modelo = 'Irã', tipoVeiculo = 1, Fornecedor_id = 1 WHERE Pecas_id = 1;
+UPDATE pecas SET Pecas_id = 3, nome = 'Vitor', descricao = 'Tem que dar certo pfv', quantidade = 43678, foto = 'Teste Update', marca = 'Qualquer coisa', ano = 536, preco = 8568, modelo = 'Irã', tipoVeiculo = 1, Fornecedor_id = 1 WHERE Pecas_id = 1;
+UPDATE pecas SET Pecas_id = 3, nome = 'Vitor', descricao = 'Tem que dar certo pfv', quantidade = 43678, foto = 'Teste Update', marca = 'Qualquer coisa', ano = 536, preco = 8568, modelo = 'Irã', tipoVeiculo = 1, Fornecedor_id = 1 WHERE Pecas_id = 1;
+UPDATE pecas SET Pecas_id = 3, nome = 'Vitor', descricao = 'Tem que dar certo pfv', quantidade = 43678, foto = 'Teste Update', marca = 'Qualquer coisa', ano = 536, preco = 8568, modelo = 'Irã', tipoVeiculo = 1, Fornecedor_id = 1 WHERE Pecas_id = 1;
+UPDATE pecas SET Pecas_id = 3, nome = 'Vitor', descricao = 'Tem que dar certo pfv', quantidade = 43678, foto = 'Teste Update', marca = 'Qualquer coisa', ano = 536, preco = 8568, modelo = 'Irã', tipoVeiculo = 1, Fornecedor_id = 1 WHERE Pecas_id = 1;
+UPDATE pecas SET Pecas_id = 3, nome = 'Vitor', descricao = 'Tem que dar certo pfv', quantidade = 43678, foto = 'Teste Update', marca = 'Qualquer coisa', ano = 536, preco = 8568, modelo = 'Irã', tipoVeiculo = 1, Fornecedor_id = 1 WHERE Pecas_id = 1;
