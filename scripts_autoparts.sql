@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS `Pecas` (
   `Fornecedores_id` INT NOT NULL,
   PRIMARY KEY (`Pecas_id`, `Fornecedores_id`),
   CONSTRAINT `fk_Pecas_Fornecedores1` FOREIGN KEY (`Fornecedores_id`) REFERENCES `Fornecedores` (`Fornecedor_id`)
+	ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS `Clientes` (
@@ -48,6 +49,7 @@ CREATE TABLE IF NOT EXISTS `Clientes` (
   `Enderecos_id` INT NOT NULL,
   PRIMARY KEY (`Cliente_id`, `Enderecos_id`),
   CONSTRAINT `fk_Clientes_Enderecos1` FOREIGN KEY (`Enderecos_id`) REFERENCES `Enderecos` (`Endereco_id`)
+  ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS `Funcionarios` (
@@ -70,5 +72,6 @@ CREATE TABLE IF NOT EXISTS `Vendas` (
   CONSTRAINT `fk_Pecas_has_Vendedores_Pecas1` FOREIGN KEY (`Pecas_id`, `Pecas_Fornecedores_id`) REFERENCES `Pecas` (`Pecas_id`, `Fornecedores_id`),
   CONSTRAINT `fk_Vendas_Vendedores1` FOREIGN KEY (`Vendedores_id`) REFERENCES `Funcionarios` (`Funcionario_id`),
   CONSTRAINT `fk_Vendas_Clientes1` FOREIGN KEY (`Clientes_id`) REFERENCES `Clientes` (`Cliente_id`)
+  ON DELETE CASCADE
 );
 
